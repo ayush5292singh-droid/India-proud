@@ -232,3 +232,18 @@ document.getElementById("info").innerHTML=
 `;
 
 }
+window.onload=function(){
+
+setTimeout(()=>{
+
+let loader=document.getElementById("loader");
+
+if(loader){
+
+loader.style.display="none";
+
+}
+
+},2000);
+
+};
