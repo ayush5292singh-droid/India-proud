@@ -4,8 +4,41 @@ viewBox="0 0 600 700">
 
 <g id="india-map">
 
+<!-- Uttar Pradesh -->
 
-<!-- States will be added here -->
+<path
+id="UttarPradesh"
+class="state"
+d="M250 220 L360 220 L360 300 L250 300 Z"
+/>
+
+
+<!-- Rajasthan -->
+
+<path
+id="Rajasthan"
+class="state"
+d="M80 170 L220 170 L220 300 L80 300 Z"
+/>
+
+
+<!-- Maharashtra -->
+
+<path
+id="Maharashtra"
+class="state"
+d="M180 330 L320 330 L320 430 L180 430 Z"
+/>
+
+
+<!-- Tamil Nadu -->
+
+<path
+id="TamilNadu"
+class="state"
+d="M300 500 L390 500 L390 620 L300 620 Z"
+/>
+
 
 
 </g>
