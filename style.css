@@ -293,3 +293,70 @@ width:100%;
 height:100%;
 
 }
+/* ===== PROFESSIONAL MAP EFFECTS ===== */
+
+
+.state{
+
+fill:#008cff;
+
+stroke:white;
+
+stroke-width:2;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+
+
+.state:hover{
+
+fill:#ff9933;
+
+filter:
+drop-shadow(0 0 15px orange);
+
+transform:scale(1.08);
+
+}
+
+
+
+#map object{
+
+width:100%;
+
+height:100%;
+
+}
+
+
+
+#map svg{
+
+overflow:visible;
+
+}
+
+
+
+.infoBox{
+
+transition:0.4s;
+
+}
+
+
+
+.infoBox:hover{
+
+transform:translateY(-5px);
+
+box-shadow:
+
+0 0 40px cyan;
+
+}
