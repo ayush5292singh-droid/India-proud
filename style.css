@@ -360,3 +360,78 @@ box-shadow:
 0 0 40px cyan;
 
 }
+/* FINAL POLISH */
+
+
+#loader{
+
+position:absolute;
+
+background:#020617;
+
+color:#00ffff;
+
+padding:20px;
+
+border-radius:20px;
+
+font-size:20px;
+
+animation:loading 2s infinite;
+
+}
+
+
+
+@keyframes loading{
+
+50%{
+
+opacity:.3;
+
+transform:scale(1.1);
+
+}
+
+}
+
+
+
+.infoBox p{
+
+padding:8px;
+
+border-bottom:1px solid rgba(255,255,255,.1);
+
+}
+
+
+
+.infoBox h2{
+
+animation:title 0.5s;
+
+}
+
+
+
+@keyframes title{
+
+from{
+
+transform:translateX(-30px);
+
+opacity:0;
+
+}
+
+
+to{
+
+transform:translateX(0);
+
+opacity:1;
+
+}
+
+}
